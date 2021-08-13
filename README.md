@@ -6,8 +6,21 @@ SMTP stands for Simple Mail Transfer Protocol, and it’s an application used by
 
 ***how you can run this program?***
 
-**first install packges**
+**packges:**
 * pip install smtplib
 * pip install ssl 
 * pip install email
 
+**inputs:**
+
+- sender = 'mail_sender@gmail.com'
+
+- receivers = 'mail_receiver@gmail.com'
+
+- body_of_email = 'Text to be displayed in the email'
+
+- msg['Subject'] = 'test messge'
+
+- msg['From'] = sender
+
+- msg['To'] = 'your name'
