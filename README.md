@@ -20,11 +20,11 @@ SMTP stands for Simple Mail Transfer Protocol, and it’s an application used by
 * pip install email-to
 
 **Basic inputs:**
-```
+``` python
 sender = 'mail_sender@gmail.com'
 receivers = 'mail_receiver@gmail.com'
 body_of_email = 'Text to be displayed in the email'
-msg['Subject'] = 'test messge'
+msg['Subject'] = 'Subject your messge'
 msg['From'] = sender
 msg['To'] = 'your name'
 ```
